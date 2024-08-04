@@ -106,6 +106,51 @@ body{
     font-weight: bold;
 }
 
+/* side navbar */
+
+.side-navbar{
+    background-color: rgb(185, 170, 170);
+    width: 45%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    transition: 2s;
+}
+
+.side-navbar-link{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.side-navbar-links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.cross-symbol{
+    color: red;
+    text-align: right;
+    font-size: 20px;
+}
+
+.side-navbar-links a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.side-navbar h1{
+    padding-top: 10px;
+    font-size: 20px;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
 .partners{
     padding: 20px;
     background-color: snow;
